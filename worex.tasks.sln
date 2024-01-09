@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "worex.tasks", "worex.tasks.csproj", "{98B0BC93-4DCC-498F-B732-2BAE0679B0B4}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "worex.sql", "..\worex.sql\worex.sql.sqlproj", "{3A03913A-55C3-4D0B-8A7E-74D1A82D561A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98B0BC93-4DCC-498F-B732-2BAE0679B0B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B0BC93-4DCC-498F-B732-2BAE0679B0B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B0BC93-4DCC-498F-B732-2BAE0679B0B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B0BC93-4DCC-498F-B732-2BAE0679B0B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A03913A-55C3-4D0B-8A7E-74D1A82D561A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A03913A-55C3-4D0B-8A7E-74D1A82D561A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A03913A-55C3-4D0B-8A7E-74D1A82D561A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3A03913A-55C3-4D0B-8A7E-74D1A82D561A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A03913A-55C3-4D0B-8A7E-74D1A82D561A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A03913A-55C3-4D0B-8A7E-74D1A82D561A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F342A08-A33C-40EE-A974-7669D4D7B32C}
+	EndGlobalSection
+EndGlobal
