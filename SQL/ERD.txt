@@ -1,0 +1,34 @@
+﻿Entity-Relationship Diagram 
+
+                               Employee Table
+EmployeeID (Primary Key)
+Name
+ManagerID (Foreign Key referencing EmployeeID, nullable since not all employees have managers)
+
+-----------------------------------------------------------
+                                Project Table
+ProjectID (Primary Key)
+Name
+Description
+---------------------------------------------------------------------------
+
+                                TimeLog Table
+
+TimeLogID (Primary Key)
+EmployeeID (Foreign Key referencing Employee Table)
+ProjectID (Foreign Key referencing Project Table)
+Date
+TaskDescription
+MinutesWorked
+
+---------------------------------------------------------------------------------
+                                  Manager Table 
+
+ManagerID (Primary Key, referencing EmployeeID in Employee Table)
+Name
+
+
+#Relationships:
+An Employee can have zero or one Manager.
+An Employee can log time for multiple Projects.
+A Project can have multiple time logs from different Employees.
